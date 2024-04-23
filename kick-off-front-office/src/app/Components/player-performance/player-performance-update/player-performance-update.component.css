@@ -1,0 +1,71 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  font-size: 1.2rem;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.custom-btn {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 14px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.custom-btn:hover {
+  background-color: red;
+}
+
+.btn {
+  width: calc(50% - 5px); 
+  margin-right: 5px; 
+}
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}

@@ -1,0 +1,28 @@
+.card {
+  margin-top: 20px;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.container {
+  padding-top: 50px;
+  
+}
+h2{
+  color: aliceblue;
+}
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}

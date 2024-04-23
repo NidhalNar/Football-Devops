@@ -1,0 +1,64 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d9534f; 
+}
+
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  input[type="text"],
+  input[type="number"],
+  button {
+      width: 100%;
+  }
+}
+
+.add-performance-button {
+  margin-top: 20px; 
+}
+
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+label{
+  color: beige;
+}

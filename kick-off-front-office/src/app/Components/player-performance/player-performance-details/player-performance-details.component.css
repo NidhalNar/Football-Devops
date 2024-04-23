@@ -1,0 +1,49 @@
+.container-fluid {
+  height: 100vh; 
+}
+
+.card {
+ 
+  margin: 20px;
+}
+
+.card-header {
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+.custom-btn {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  .custom-card .card-body {
+    padding: 15px; 
+  }
+}
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}

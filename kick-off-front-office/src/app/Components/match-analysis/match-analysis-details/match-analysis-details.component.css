@@ -1,0 +1,32 @@
+.card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card-header {
+  background-color: black;
+  color: #fff;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #856404;
+}
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
